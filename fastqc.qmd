@@ -1,6 +1,10 @@
 ---
 title: "fastqc"
-format: html
+format: 
+  pdf: 
+    toc: TRUE
+
+
 ---
 
 ## 
