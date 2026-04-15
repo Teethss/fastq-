@@ -3,6 +3,9 @@ title: "fastqc"
 format: 
   pdf: 
     toc: TRUE
+    toc-depth: 3
+    fontsize: 11
+    colorlink: TRUE
 
 
 ---
