@@ -6,8 +6,20 @@ format:
     toc-depth: 3
     fontsize: 11
     colorlink: TRUE
-
-
+date: today 
+execute: 
+  echo: TRUE
+  message: FALSE
+  warnings: FALSE
 ---
 
-## 
+# Quality checking  
+I will run fastqc on each individual replicate now. Start by creating a new directory 
+
+```{bash}
+# Run fastqc on each sample 
+mkdir fastqc_output 
+
+fastqc 
+
+```
